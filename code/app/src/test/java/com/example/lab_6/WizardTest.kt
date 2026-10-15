@@ -14,6 +14,7 @@ class WizardTest {
 
     @Test
     fun castSpell_explosion_successful() {
+        // cast a successful explosion spell
         val damageDelt = evilWizard.castSpell("Explosion")
         assertEquals(30, damageDelt)
         assertEquals(20, evilWizard.mana)
